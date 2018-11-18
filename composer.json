@@ -1,0 +1,29 @@
+{
+  "name": "beastbytes/yii2-validators",
+  "description": "Additional validators for Yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "validator",
+    "yii2",
+    "phone number",
+    "postal code"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [{
+    "name": "Chris Yates",
+    "email": "chris.l.yates@gmail.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BeastBytes\\Validators\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BeastBytes\\Validators\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
